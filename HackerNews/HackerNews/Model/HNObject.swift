@@ -28,18 +28,18 @@ class HNObject: Mappable {
 	}
 	
 	func mapping(map: Map) {
-		author		<- map["by"]
-		id			<- map["id"]
-		title		<- map["title"]
-		text		<- map["text"]
-		descendants	<- map["descendants"]
-		score		<- map["score"]
-		parentId	<- map["parent"]
-		kidsIds		<- map["kids"]
-		time		<- (map["time"], DateTransform())
-		url			<- (map["url"], URLTransform())
-		pollId		<- map["poll"]
-		type		<- (map["type"], EnumTransform())
+		author      <- map["by"]
+		id          <- map["id"]
+		title       <- map["title"]
+		text        <- map["text"]
+		descendants <- map["descendants"]
+		score       <- map["score"]
+		parentId    <- map["parent"]
+		kidsIds     <- map["kids"]
+		time        <- (map["time"], DateTransform())
+		url         <- (map["url"], URLTransform())
+		pollId      <- map["poll"]
+		type        <- (map["type"], EnumTransform())
 	}
 	
 }
