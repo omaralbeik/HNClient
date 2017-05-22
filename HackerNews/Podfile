@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+
+target 'HackerNews' do
+  use_frameworks!
+
+  # Pods for HackerNews
+  pod 'SnapKit'
+  pod 'SwifterSwift'
+  pod 'Alamofire'
+  pod 'AlamofireObjectMapper'
+
+end
