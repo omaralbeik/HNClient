@@ -36,15 +36,15 @@ class HNUser: Mappable {
 
 extension HNUser {
 	
-	func fetchStories(_ completion: @escaping (_ stories: [HNObject]) -> Void) {
+	func fetchStories(_ completion: @escaping (_ stories: [HNItem]) -> Void) {
 		guard let ids = submittedStoriesIds, !ids.isEmpty else {
 			completion([])
 			return
 		}
 		var fetchedCount = 0
-		var stories: [HNObject] = []
+		var stories: [HNItem] = []
 		for id in ids {
-			HNManager.fetchObject(id: id) { object, _ in
+			HNManager.fetchItem(id: id) { object, _ in
 				if let story = object {
 					stories.append(story)
 					fetchedCount += 1

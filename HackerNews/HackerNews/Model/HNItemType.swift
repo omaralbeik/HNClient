@@ -1,5 +1,5 @@
 //
-//  HNObjectType.swift
+//  HNItemType.swift
 //  HackerNews
 //
 //  Created by Omar Albeik on 5/22/17.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-enum HNObjectType: String {
+enum HNItemType: String {
 	case story = "story"
 	case ask =  "ask"
 	case poll = "poll"
 	case job = "job"
 	case comment = "comment"
-	case pollPart = "pollopt"
+	case pollOpt = "pollopt"
 }
