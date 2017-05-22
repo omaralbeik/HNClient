@@ -22,11 +22,11 @@ class HNUser: Mappable {
 	}
 	
 	func mapping(map: Map) {
-		about				<- map["about"]
-		dateCreated			<- (map["created"], DateTransform())
-		delay				<- map["delay"]
-		id					<- map["id"]
-		karma				<- map["karma"]
+		about               <- map["about"]
+		dateCreated         <- (map["created"], DateTransform())
+		delay               <- map["delay"]
+		id                  <- map["id"]
+		karma               <- map["karma"]
 		submittedStoriesIds <- map["submitted"]
 		
 	}
