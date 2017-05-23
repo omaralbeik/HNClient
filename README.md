@@ -1,2 +1,2 @@
-# HN-iOS
+# HNClient
 Hacker News iOS Client
