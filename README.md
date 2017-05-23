@@ -144,3 +144,6 @@ Add the [Source](https://github.com/omaralbeik/HNClient/blob/master/Source/) fol
 ## License
 
 HNClient is released under the MIT license. See [LICENSE](https://github.com/omaralbeik/HNClient/blob/master/LICENSE) for details.
+
+## Special Thanks
+Special thanks to [Mert Akengin](https://github.com/pvtmert) for starting this initiative and supporting with Data Modeling!
