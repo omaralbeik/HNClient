@@ -9,6 +9,7 @@
 import ObjectMapper
 
 
+/// Story, comment, job, Ask HN, poll or poll part
 public final class HNItem: Mappable {
 	
 	/// Item's unique id.

@@ -9,13 +9,25 @@
 import ObjectMapper
 
 
+/// Hacker News User
 public class HNUser: Mappable {
 	
-	public var about: String?
-	public var dateCreated: Date?
-	public var delay: Int?
+	/// The user's unique username. Case-sensitive. Required.
 	public var id: String?
+	
+	/// Delay in minutes between a comment's creation and its visibility to other users.
+	public var delay: Int?
+	
+	/// Creation date of the user
+	public var dateCreated: Date?
+	
+	/// The user's optional self-description. HTML.
+	public var about: String?
+	
+	/// The user's karma.
 	public var karma: Int?
+	
+	/// List of the user's stories, polls and comments.
 	public var submittedStoriesIds: [Int]?
 	
 	required public init?(map: Map) {

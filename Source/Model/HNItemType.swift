@@ -8,6 +8,14 @@
 
 import Foundation
 
+/// Type of HNItem.
+///
+/// - story: Story HN
+/// - ask: Ask HN
+/// - poll: Poll HN
+/// - job: Job HN
+/// - comment: Comment HN
+/// - pollOpt: Poll Opt
 public enum HNItemType: String {
 	case story   = "story"
 	case ask     =  "ask"

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name = "HNClient"
   s.version = "0.1"
-  s.summary = "a Client for Hacker News API"
+  s.summary = "Super easy to use client for Hacker News API"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.homepage = "https://github.com/omaralbeik/HNClient"
   s.author = { "Omar Albeik" => "omaralbeik@gmail.com" }
