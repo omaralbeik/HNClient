@@ -38,7 +38,7 @@ Fetch max item ID:
 ```swift
 HNManager.shared.fetchMaxItemId { id, error in
   // returns the current largest item id
-	// example: 9127232
+  // example: 9127232
 }
 ```
 
